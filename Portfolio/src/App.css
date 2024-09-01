@@ -1,9 +1,14 @@
 /* Root section for CSS variables */
 :root {
-  --primary-color: #39CCCC;
+  --bs-primary: #39CCCC;
+  --bs-primary-rgb: 57, 204, 204;
+  --bs-secondary: #1D6666;
+  --bs-secondary-rgb: 29, 102, 102;
+
   --background-color: #0A111F;
   --font-family: 'Poppins', sans-serif;
   --font-color: #F2F2F2;
+  --font-color-rgb: 242, 242, 242;
 }
 
 /* Body section */
@@ -17,12 +22,15 @@ body {
 
 /* Menu section */
 .menu {
+  position: sticky;
+  top: 0;
   background-color: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: fit-content;
   margin: 25px auto;
+  z-index: 99;
 }
 
 .menu a {
@@ -32,50 +40,54 @@ body {
 }
 
 .menu a:hover {
-  color: var(--primary-color);
+  color: var(--bs-primary);
 }
 
-/* Footer section */
-.footer {
-  background-color: var(--primary-color);
-  color: #fff;
-  text-align: center;
-  padding: var(--padding);
-  position: fixed;
+/* Home section */
+.bg-home {
+  position: absolute;
+  top: -1%;
   width: 100%;
-  bottom: 0;
+  z-index: -1;
 }
 
-/* Form section */
-form {
-  background-color: #fff;
-  padding: var(--padding);
-  border-radius: var(--border-radius);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  max-width: 400px;
-  margin: 20px auto;
+#home h1 {
+  font-weight: 500;
+  font-size: 3rem;
 }
 
-form input[type="text"],
-form input[type="email"],
-form input[type="password"],
-form textarea {
-  width: 100%;
-  padding: var(--padding);
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  border-radius: var(--border-radius);
+#home h4 {
+  color: rgba(var(--font-color-rgb), .45) !important;
+  font-weight: 500;
 }
 
-form input[type="submit"] {
-  background-color: var(--secondary-color);
-  color: #fff;
-  padding: var(--padding);
+/* UI */
+.btn-primary {
   border: none;
-  border-radius: var(--border-radius);
-  cursor: pointer;
+  border-radius: 15px;
+  color: var(--font-color);
+  background: linear-gradient(163.37deg, var(--bs-primary) 9.63%, var(--bs-secondary) 97.22%);
+  box-shadow: 0px 6px 15px 0px #39CCCC40;
+  text-align: center;
+  font-weight: 600;
+  padding: 15px 25px;
 }
 
-form input[type="submit"]:hover {
-  background-color: var(--primary-color);
+.btn-primary:hover {
+  background: linear-gradient(163.37deg, var(--bs-secondary) 9.63%, var(--bs-primary) 97.22%);
+
+}
+
+.btn-secondary {
+  color: var(--bs-primary);
+  border-radius: 15px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  padding: 15px 25px;
+}
+
+.btn-secondary:hover span {
+  margin-right: .9rem !important;
+  font-weight: 700;
 }
