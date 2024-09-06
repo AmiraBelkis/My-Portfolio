@@ -1,8 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
-import { Menu } from './component/menu/Menu'
+import { Menu } from './component/Menu/Menu'
 import { Home } from './component/Home/Home'
 import { BackgroundHome } from './component/Background';
+import About from './component/About';
 
 const menuItems = [
   { id: 1, title: 'Home', link: '/#home' },
@@ -18,6 +19,7 @@ function App() {
       <BackgroundHome></BackgroundHome>
       <Menu items={menuItems}></Menu>
       <Home></Home>
+      <About></About>
     </>
   )
 }
