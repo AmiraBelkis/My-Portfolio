@@ -5,7 +5,7 @@ import Logo from "./Logo";
 
 export default function TechItem({ name, logo, description }) {
     return (<>
-        <Card col="col-sm-4">
+        <Card col="col-sm-auto">
             <Logo img={logo}></Logo>
             <Title title={name}></Title>
             <Description content={description}></Description>

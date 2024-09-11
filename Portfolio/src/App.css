@@ -90,8 +90,7 @@ h3.section-sub-title {
 }
 
 #technologies .card {
-  padding: 3% 4%;
-  width: 28% !important;
+  margin-left: 2rem !important;
 }
 
 .btn-primary {
