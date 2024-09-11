@@ -3,7 +3,8 @@ import './App.css'
 import { Menu } from './component/Menu/Menu'
 import { Home } from './component/Home/Home'
 import { BackgroundHome } from './component/Background';
-import About from './component/About';
+import About from './component/About/About';
+import Technology from './component/Technology/Technology';
 
 const menuItems = [
   { id: 1, title: 'Home', link: '/#home' },
@@ -20,6 +21,7 @@ function App() {
       <Menu items={menuItems}></Menu>
       <Home></Home>
       <About></About>
+      <Technology></Technology>
     </>
   )
 }
