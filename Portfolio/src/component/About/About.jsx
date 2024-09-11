@@ -1,5 +1,5 @@
-import Card from "./Card";
-import Title from "./Title";
+import Card from "../Card";
+import Title from "../Title";
 
 export default function About() {
     const aboutContent = [
@@ -12,7 +12,7 @@ export default function About() {
             <div id="about" className="container">
                 <div className="row">
                     <Title title=" About Me "></Title>
-                    <Card>
+                    <Card col="col-sm-10">
                         {aboutContent.map((content, index) => (
                             <p key={index}>{content}</p>
                         ))}
