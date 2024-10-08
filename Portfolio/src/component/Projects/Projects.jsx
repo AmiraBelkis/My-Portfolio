@@ -1,6 +1,6 @@
-import { SubTitle } from "../SubTitle";
-import { Title } from "../Title";
-import { Slider_ } from "../Slider";
+import { SubTitle } from "../../ui/SubTitle";
+import { Title } from "../../ui/Title";
+import { Slider_ } from "../../ui/Slider";
 import { ProjectItem } from "./ProjectItem";
 import prjt from "../../assets/prjt.jpeg"
 

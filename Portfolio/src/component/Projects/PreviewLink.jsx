@@ -1,4 +1,4 @@
-import { LinkChainIcon } from "../Icon";
+import { LinkChainIcon } from "../../ui/Icon";
 
 export const PreviewLink = ({ link }) => {
     const element = <div className="col-sm-6">

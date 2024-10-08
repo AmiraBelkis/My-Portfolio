@@ -1,5 +1,5 @@
-import { Card } from "../Card";
-import { Title } from "../Title";
+import { Card } from "../../ui/Card";
+import { Title } from "../../ui/Title";
 import { Description } from "./Description";
 import { Logo } from "./Logo";
 

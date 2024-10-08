@@ -1,4 +1,4 @@
-import { GithubIcon } from "../Icon";
+import { GithubIcon } from "../../ui/Icon";
 
 export const CodeLink = ({ link }) => {
     const element = <div className="col-sm-6">

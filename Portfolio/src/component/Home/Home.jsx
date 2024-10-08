@@ -1,4 +1,4 @@
-import { DownloadButton, LinkButton } from "../Button";
+import { DownloadButton, LinkButton } from "../../ui/Button";
 
 export const Home = () => {
     return (
