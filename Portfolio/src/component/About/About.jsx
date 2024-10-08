@@ -1,7 +1,7 @@
-import Card from "../Card";
-import Title from "../Title";
+import { Card } from "../Card";
+import { Title } from "../Title";
 
-export default function About() {
+export const About = () => {
     const aboutContent = [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis diam orci.  Maecenas at tortor tristique, efficitur ligula non, condimentum lectus. Cras tincidunt tempus mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "  Morbi quis diam orci. Maecenas at tortor tristique, efficitur ligula non, condimentum lectus. Cras tincidunt tempus mollis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi "

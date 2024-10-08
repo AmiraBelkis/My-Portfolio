@@ -1,10 +1,10 @@
-import SubTitle from "../SubTitle";
-import Title from "../Title";
-import Slider_ from "../Slider";
-import ProjectItem from "./ProjectItem";
+import { SubTitle } from "../SubTitle";
+import { Title } from "../Title";
+import { Slider_ } from "../Slider";
+import { ProjectItem } from "./ProjectItem";
 import prjt from "../../assets/prjt.jpeg"
 
-export default function Projects() {
+export const Projects = () => {
 
     return (<>
         <div id="projects" className="container">

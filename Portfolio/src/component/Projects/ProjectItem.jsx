@@ -1,9 +1,9 @@
-import Card from "../Card";
-import Description from "../Technology/Description";
-import CodeLink from "./CodeLink";
+import { Card } from "../Card";
+import { Description } from "../Technology/Description";
+import { CodeLink } from "./CodeLink";
 import { PreviewLink } from "./PreviewLink";
 
-export default function ProjectItem({ name, image, description, githubLink, LiveReviewLink }) {
+export const ProjectItem = ({ name, image, description, githubLink, LiveReviewLink }) => {
     return (
         <Card col="col-sm-auto">
             <img src={image} alt="Project" width="100%" />

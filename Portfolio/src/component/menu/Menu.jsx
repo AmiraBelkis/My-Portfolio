@@ -1,7 +1,4 @@
-
-import { MenuItem } from "./MenuItem";
-
-export function Menu({ items }) {
+export const Menu = ({ items }) => {
     return (
         <nav className="menu">
             {items.map(item => {
@@ -15,4 +12,7 @@ export function Menu({ items }) {
             })}
         </nav>
     )
+}
+export const MenuItem = ({ title, link }) => {
+    return <a href={link} >{title}</a>
 }

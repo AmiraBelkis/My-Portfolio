@@ -1,6 +1,6 @@
 import { DownloadButton, LinkButton } from "../Button";
 
-export function Home() {
+export const Home = () => {
     return (
         <div id="home">
             <div className="row justify-content-center align-items-center text-center mt-5 mb-4">

@@ -1,9 +1,9 @@
-import Card from "../Card";
-import Title from "../Title";
-import Description from "./Description";
-import Logo from "./Logo";
+import { Card } from "../Card";
+import { Title } from "../Title";
+import { Description } from "./Description";
+import { Logo } from "./Logo";
 
-export default function TechItem({ name, logo, description }) {
+export const TechItem = ({ name, logo, description }) => {
     return (<>
         <Card col="col-sm-auto">
             <Logo img={logo}></Logo>

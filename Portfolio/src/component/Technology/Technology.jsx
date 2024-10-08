@@ -1,10 +1,10 @@
-import SubTitle from "../SubTitle";
-import Title from "../Title";
-import TechItem from "./TechItem";
-import reactLogo from "../../assets/logos_react.png";
-import Slider_ from "../Slider";
+import { SubTitle } from "../SubTitle";
+import { Title } from "../Title";
+import { TechItem } from "./TechItem";
+import { reactLogo } from "../../assets/logos_react.png";
+import { Slider_ } from "../Slider";
 
-export default function Technology() {
+export const Technology = () => {
 
     return (<>
         <div id="technologies" className="container">
