@@ -1,7 +1,7 @@
 import { SubTitle } from "../SubTitle";
 import { Title } from "../Title";
 import { TechItem } from "./TechItem";
-import { reactLogo } from "../../assets/logos_react.png";
+import reactLogo from "../../assets/logos_react.png";
 import { Slider_ } from "../Slider";
 
 export const Technology = () => {

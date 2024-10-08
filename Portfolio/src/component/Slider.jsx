@@ -25,7 +25,7 @@ export function SliderArrow({ className, style, onClick, icon }) {
     );
 }
 
-export default function Slider_({ children }) {
+export const Slider_ = ({ children }) => {
     return (
         <div className="slider-container">
             <Slider {...settings}>
