@@ -89,7 +89,8 @@ h3.section-sub-title {
 
 }
 
-#technologies .card {
+#technologies .card,
+#projects .card {
   margin-left: 2rem !important;
 }
 

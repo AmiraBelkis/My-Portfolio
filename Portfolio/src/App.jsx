@@ -5,6 +5,7 @@ import { Home } from './component/Home/Home'
 import { BackgroundHome } from './component/Background';
 import About from './component/About/About';
 import Technology from './component/Technology/Technology';
+import Projects from './component/Projects/Projects';
 
 const menuItems = [
   { id: 1, title: 'Home', link: '/#home' },
@@ -22,6 +23,7 @@ function App() {
       <Home></Home>
       <About></About>
       <Technology></Technology>
+      <Projects></Projects>
     </>
   )
 }
