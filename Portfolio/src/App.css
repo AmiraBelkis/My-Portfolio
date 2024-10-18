@@ -6,6 +6,9 @@
   --bs-secondary-rgb: 29, 102, 102;
 
   --background-color: #0A111F;
+  --footer-background-color: #0C1826;
+  --grey-background-color: #A7A7A7;
+
   --font-family: 'Poppins', sans-serif;
   --font-color: #F2F2F2;
   --font-color-rgb: 242, 242, 242;
@@ -116,6 +119,22 @@ h3.section-sub-title {
   width: 100% !important;
   border-top-right-radius: 3rem;
   border-top-left-radius: 3rem;
+}
+
+#footer {
+  margin-top: 8rem !important;
+  background-color: var(--footer-background-color);
+  padding: 2.8rem 3.2rem;
+}
+
+.icon-account {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  background-color: var(--grey-background-color);
 }
 
 .btn-primary {

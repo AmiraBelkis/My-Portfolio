@@ -7,6 +7,7 @@ import { About } from './component/About/About';
 import { Technology } from './component/Technology/Technology';
 import { Projects } from './component/Projects/Projects';
 import { menuItems } from './utils/constants';
+import { Footer } from './component/Footer/Footer';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Technology />
       <Projects />
+      <Footer />
     </>
   )
 }
