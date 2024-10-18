@@ -8,6 +8,9 @@ export const menuItems = [
     { id: 5, title: 'Contact', link: '/#footer' }
 ];
 
+export const profiles = [{ icon: "github", link: "https://github.com/AmiraBelkis" },
+{ icon: "linkedin", link: "https://www.linkedin.com/in/amirabelkis/" },
+{ icon: "upwork", link: "https://www.upwork.com/freelancers/~012dd94f449054402d" }]
 
 export const profileIcons = {
     "github": <GithubAccount />,

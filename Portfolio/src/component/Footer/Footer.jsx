@@ -1,3 +1,4 @@
+import { profiles } from "../../utils/constants"
 import { Link } from "./Link"
 
 export const Footer = () => {
@@ -7,9 +8,9 @@ export const Footer = () => {
                 <div className="col-8">
                     <div className="d-flex">
                         <div className="row">
-                            <Link icon="github" link="https://www.linkedin.com/feed/"></Link>
-                            <Link icon="linkedin" link="https://www.linkedin.com/feed/"></Link>
-                            <Link icon="upwork" link="https://www.linkedin.com/feed/"></Link>
+                            {profiles.map(
+                                (profile, index) => <Link key={index} icon={profile.icon} link={profile.link} target="_blank"></Link>
+                            )}
                         </div>
                     </div>
                 </div>
