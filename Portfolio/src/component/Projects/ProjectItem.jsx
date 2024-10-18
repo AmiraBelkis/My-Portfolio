@@ -1,8 +1,7 @@
 import { Card } from "../../ui/Card";
 import { Description } from "./Description";
-import { CodeLink } from "./CodeLink";
-import { PreviewLink } from "./PreviewLink";
 import { TechStack } from "./TechStack";
+import { Link } from "./Link";
 
 export const ProjectItem = ({ name, image, description, tech, githubLink, LiveReviewLink }) => {
     return (
@@ -17,8 +16,8 @@ export const ProjectItem = ({ name, image, description, tech, githubLink, LiveRe
                     {tech}
                 </TechStack>
                 <div className="d-flex">
-                    <PreviewLink link={LiveReviewLink}></PreviewLink>
-                    <CodeLink link={githubLink}></CodeLink>
+                    <Link link={LiveReviewLink} type="preview"></Link>
+                    <Link link={githubLink} type="code"></Link>
                 </div>
             </div>
         </Card>
