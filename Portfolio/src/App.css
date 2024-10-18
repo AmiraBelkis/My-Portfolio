@@ -94,6 +94,10 @@ h3.section-sub-title {
   margin-left: 2rem !important;
 }
 
+#projects .card {
+  padding: 0;
+}
+
 .btn-primary {
   border: none;
   border-radius: 15px;

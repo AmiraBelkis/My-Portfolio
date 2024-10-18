@@ -14,9 +14,9 @@ export const Projects = () => {
             </div>
             <div className="row">
                 <Slider_>
-                    <ProjectItem name="project name 1" image={prjt} description="project description for more clarity" githubLink="http://localhost:5173/" LiveReviewLink="http://localhost:5173/#technologies"></ProjectItem>
-                    <ProjectItem name="project name 2" image={prjt} description="project description for more clarity" githubLink="http://localhost:5173/" LiveReviewLink="http://localhost:5173/#technologies"></ProjectItem>
-                    <ProjectItem name="project name 3" image={prjt} description="project description for more clarity" githubLink="http://localhost:5173/" LiveReviewLink="http://localhost:5173/#technologies"></ProjectItem>
+                    <ProjectItem name="project name 1" image={prjt} description="This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content" tech="HTML , JavaScript, SASS, React" githubLink="http://localhost:5173/" LiveReviewLink="http://localhost:5173/#technologies"></ProjectItem>
+                    <ProjectItem name="project name 2" image={prjt} description="This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content" tech="HTML , JavaScript, SASS, React" githubLink="http://localhost:5173/" LiveReviewLink="http://localhost:5173/#technologies"></ProjectItem>
+                    <ProjectItem name="project name 3" image={prjt} description="This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content" tech="HTML , JavaScript, SASS, React" githubLink="http://localhost:5173/" LiveReviewLink="http://localhost:5173/#technologies"></ProjectItem>
                 </Slider_>
             </div>
         </div>
