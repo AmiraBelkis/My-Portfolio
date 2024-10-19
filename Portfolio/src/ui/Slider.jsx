@@ -8,7 +8,7 @@ const settings = {
     infinite: true,
     speed: 600,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     nextArrow: <SliderArrow icon={nextImg} />,
     prevArrow: <SliderArrow icon={prevImg} />
 };

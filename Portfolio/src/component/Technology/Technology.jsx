@@ -1,10 +1,12 @@
 import { SubTitle } from "../../ui/SubTitle";
 import { Title } from "../../ui/Title";
 import { TechItem } from "./TechItem";
-import reactLogo from "../../assets/logos_react.png";
 import { Slider_ } from "../../ui/Slider";
+import { useTechnologies } from "../../hooks/useTechnologies";
 
 export const Technology = () => {
+    const technologies = useTechnologies();
+    console.log({ technologies });
 
     return (<>
         <div id="technologies" className="container">
@@ -15,11 +17,11 @@ export const Technology = () => {
             <div className="row">
                 <div className="slider-container">
                     <Slider_ >
-                        <TechItem name="React1" logo={reactLogo} description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."></TechItem>
-                        <TechItem name="React2" logo={reactLogo} description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."></TechItem>
-                        <TechItem name="React3" logo={reactLogo} description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."></TechItem>
-                        <TechItem name="React4" logo={reactLogo} description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."></TechItem>
-                        <TechItem name="React5" logo={reactLogo} description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."></TechItem>
+                        {
+                            technologies.map((techItem, index) => {
+                                return <TechItem key={index} name={techItem.name} logo={`/src/assets/img/tech/${techItem.logo}`} description={techItem.description}></TechItem>
+                            })
+                        }
                     </Slider_>
                 </div>
             </div>
