@@ -1,11 +1,9 @@
+import { useAbout } from "../../hooks/useAbout";
 import { Card } from "../../ui/Card";
 import { Title } from "../../ui/Title";
 
 export const About = () => {
-    const aboutContent = [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis diam orci.  Maecenas at tortor tristique, efficitur ligula non, condimentum lectus. Cras tincidunt tempus mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "  Morbi quis diam orci. Maecenas at tortor tristique, efficitur ligula non, condimentum lectus. Cras tincidunt tempus mollis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi "
-    ]
+    const aboutContent = useAbout();
 
     return (
         <>
