@@ -14,9 +14,6 @@
   --font-color-rgb: 242, 242, 242;
 }
 
-/* * {
-  border: 1px solid red;
-} */
 
 /* Body section */
 body {
@@ -41,13 +38,15 @@ body {
   z-index: 99;
 }
 
-.menu a {
+.menu a,
+.footer-menu-item {
   color: var(--font-color);
   text-decoration: none;
   padding: 10px 25px;
 }
 
-.menu a:hover {
+.menu a:hover,
+.footer-menu-item:hover {
   color: var(--bs-primary);
 }
 
@@ -130,11 +129,16 @@ h3.section-sub-title {
 .icon-account {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   width: 24px;
   height: 24px;
   border-radius: 100%;
   background-color: var(--grey-background-color);
+}
+
+.separator {
+  opacity: 1;
+  background: var(--font-color);
 }
 
 .btn-primary {
