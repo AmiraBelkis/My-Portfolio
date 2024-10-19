@@ -4,17 +4,21 @@ technologies:
       logo: python.png
       description: A versatile programming language for data analysis, machine learning, web development, and automation.
   -
-      name: Java
-      logo: java.png
-      description: A powerful, object-oriented language used for building scalable backend systems and Android applications.
+      name: Node.js
+      logo: nodejs.png
+      description: A runtime for executing JavaScript on the server, ideal for building scalable backend services.
+  -
+      name: React
+      logo: react.png
+      description: A JavaScript library for creating user-friendly interfaces and building single-page applications.
+  -
+      name: Spring Boot
+      logo: springboot.png
+      description: A framework for building Java-based backend systems, focused on speed, simplicity, and production-ready applications.
   -
       name: C#
       logo: csharp.png
       description: A language commonly used for developing enterprise applications, game development with Unity, and Windows-based software.
-  -
-      name: JavaScript
-      logo: javascript.png
-      description: A dynamic language for creating interactive web applications, both on the front-end and server-side using Node.js.
   -
       name: PHP
       logo: php.png
@@ -28,18 +32,6 @@ technologies:
       logo: tensorflow.png
       description: An open-source platform for machine learning and deep learning, used for building AI-powered applications.
   -
-      name: Node.js
-      logo: nodejs.png
-      description: A runtime for executing JavaScript on the server, ideal for building scalable backend services.
-  -
-      name: React
-      logo: react.png
-      description: A JavaScript library for creating user-friendly interfaces and building single-page applications.
-  -
-      name: Spring Boot
-      logo: springboot.png
-      description: A framework for building Java-based backend systems, focused on speed, simplicity, and production-ready applications.
-  -
       name: MongoDB
       logo: mongodb.png
       description: A NoSQL database known for its flexibility and scalability, ideal for storing JSON-like data.
@@ -48,33 +40,17 @@ technologies:
       logo: postgresql.png
       description: An advanced, open-source relational database known for its robustness, extensibility, and SQL compliance.
   -
-      name: Oracle
-      logo: oracle.png
-      description: An enterprise-grade relational database system widely used for large-scale applications and data management.
-  -
       name: MySQL
       logo: mysql.png
       description: A popular open-source relational database, commonly used for web development and data storage.
   -
       name: SQLite
       logo: sqlite.png
-      description: A lightweight, serverless, self-contained relational database management system. It is widely used for embedded database solutions in mobile applications, desktop software, and small-scale web applications.
-  -
-      name: SonarQube
-      logo: sonarqube.png
-      description: A tool for continuous code quality inspection, detecting bugs, vulnerabilities, and code smells.
-  -
-      name: Kubernetes
-      logo: kubernetes.png
-      description: An open-source system for automating the deployment, scaling, and management of containerized applications.
+      description: A lightweight, serverless, self-contained relational database management system.
   -
       name: Docker
       logo: docker.png
       description: A platform for developing, shipping, and running applications inside containers, ensuring consistency across environments.
-  -
-      name: Canva 
-      logo: canva.png
-      description: A design tool for creating graphics, presentations, and other visual content.
   -
       name: Figma
       logo: figma.png
