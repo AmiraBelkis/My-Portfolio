@@ -124,7 +124,7 @@ h3.section-sub-title {
 
 .prjt-img {
   width: 100% !important;
-  height: 45% !important;
+  height: 255px !important;
   border-top-right-radius: 3rem;
   border-top-left-radius: 3rem;
 }
