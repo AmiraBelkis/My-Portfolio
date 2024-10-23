@@ -96,6 +96,14 @@ h3.section-sub-title {
 
 }
 
+#technologies .card {
+  min-height: 400px;
+}
+
+#technologies img {
+  height: 128px;
+}
+
 #technologies .card,
 #projects .card {
   margin-left: 2rem !important;
