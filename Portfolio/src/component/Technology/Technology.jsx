@@ -18,7 +18,7 @@ export const Technology = () => {
                     <Slider_ >
                         {
                             technologies.map((techItem, index) => {
-                                return <TechItem key={index} name={techItem.name} logo={`/src/assets/img/tech/${techItem.logo}`} description={techItem.description}></TechItem>
+                                return <TechItem key={index} {...techItem}></TechItem>
                             })
                         }
                     </Slider_>
