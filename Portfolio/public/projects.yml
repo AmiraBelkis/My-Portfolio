@@ -1,0 +1,22 @@
+projects:
+    - 
+      name: Python
+      image: python.png
+      description: A versatile programming language for data analysis, machine learning, web development, and automation.
+      tech: html, css, js
+      githubLink: https://github.com/AmiraBelkis
+      LiveReviewLink: https://www.linkedin.com/feed/
+    - 
+      name: Python
+      image: python.png
+      description: A versatile programming language for data analysis, machine learning, web development, and automation.
+      tech: html, css, js
+      githubLink: https://github.com/AmiraBelkis
+      LiveReviewLink: https://www.linkedin.com/feed/
+    - 
+      name: Python
+      image: python.png
+      description: A versatile programming language for data analysis, machine learning, web development, and automation.
+      tech: html, css, js
+      githubLink: https://github.com/AmiraBelkis
+      LiveReviewLink: https://www.linkedin.com/feed/
