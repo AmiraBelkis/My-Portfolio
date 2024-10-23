@@ -18,7 +18,7 @@ technologies:
   -
       name: C#
       logo: csharp.png
-      description: A language commonly used for developing enterprise applications, game development with Unity, and Windows-based software.
+      description: A language commonly used for developing enterprise applications, game development with Unity.
   -
       name: PHP
       logo: php.png
@@ -30,7 +30,7 @@ technologies:
   -
       name: TensorFlow
       logo: tensorflow.png
-      description: An open-source platform for machine learning and deep learning, used for building AI-powered applications.
+      description: An open-source framework for machine learning and deep learning, used for building AI-powered applications.
   -
       name: MongoDB
       logo: mongodb.png
@@ -52,6 +52,6 @@ technologies:
       logo: docker.png
       description: A platform for developing, shipping, and running applications inside containers, ensuring consistency across environments.
   -
-      name: Figma
-      logo: figma.png
-      description: A web-based design tool used for creating UI/UX designs and interactive prototypes.
+      name: Kubernetes
+      logo: kubernetes.png
+      description: An open source system for automating deployment, scaling, and management of containerized applications.
