@@ -6,7 +6,6 @@ import { useTechnologies } from "../../hooks/useTechnologies";
 
 export const Technology = () => {
     const technologies = useTechnologies();
-    console.log({ technologies });
 
     return (<>
         <div id="technologies" className="container">
