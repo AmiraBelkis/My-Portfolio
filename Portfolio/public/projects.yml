@@ -1,22 +1,57 @@
 projects:
     - 
-      name: Python
-      image: python.png
-      description: A versatile programming language for data analysis, machine learning, web development, and automation.
-      tech: html, css, js
-      githubLink: https://github.com/AmiraBelkis
-      LiveReviewLink: https://www.linkedin.com/feed/
+      name: Earth Scope
+      image: portfolio.jpg
+      description: platform for exploring wildfires, storms, and volcanic activity on a dynamic map.
+      tech:  NASA’s open API, React, Node js, Leaflet, Jest, Supertest, Iconify, Bootstrap.
+      githubLink: https://github.com/AmiraBelkis/earth-scope
+      LiveReviewLink: https://earthscope.vercel.app/
     - 
-      name: Python
-      image: python.png
-      description: A versatile programming language for data analysis, machine learning, web development, and automation.
-      tech: html, css, js
-      githubLink: https://github.com/AmiraBelkis
-      LiveReviewLink: https://www.linkedin.com/feed/
+      name: Mnist-PCA
+      image: portfolio.jpg
+      description: Performing Principal Component Analysis (PCA) on the MNIST dataset to compress the image size. PCA is a dimensionality reduction technique that reduces the number of features in a dataset while preserving as much information as possible.
+      tech: Python, MongoDB, Matplotlib, NumPy, Pandas, scikit-learn, and Keras.
+      githubLink: https://github.com/AmiraBelkis/Mnist-PCA
+      LiveReviewLink: https://github.com/AmiraBelkis/Mnist-PCA/blob/main/Script.ipynb
     - 
-      name: Python
-      image: python.png
-      description: A versatile programming language for data analysis, machine learning, web development, and automation.
-      tech: html, css, js
-      githubLink: https://github.com/AmiraBelkis
-      LiveReviewLink: https://www.linkedin.com/feed/
+      name: Artificial Neural Network Compression
+      image: portfolio.jpg
+      description:  This project aims to optimize the architecture of convolutional neural networks (CNNs) to reduce the computational complexity. The proposed approach combines pruning, knowledge distillation, and genetic algorithm to find an optimized architecture that minimizes model size while maintaining accuracy.
+      tech: Python, pytorch, Matplotlib.
+      githubLink: https://github.com/AmiraBelkis/Neural-Network-Reduction-via-Knowledge-Transfer
+      LiveReviewLink:
+    - 
+      name: Aya'a portfolio
+      image: portfolio.jpg
+      description: This project involves the development of a compelling portfolio for Feliachi Aya Ahlam, a computer science student, showcasing her skills and projects.
+      tech: HTML5, CSS3, native JavaScript, and Bootstrap5.
+      githubLink: 
+      LiveReviewLink: https://ayaahlamfeliachi.github.io/Feliachi-Aya-Ahlem-portfolio/
+    -
+      name: Sirius Diag
+      image: portfolio.jpg
+      description: Developed a custom e-commerce app for OBDeleven products, providing a seamless shopping experience tailored to client needs for Sirius Net.
+      tech: PHP, HTML5, CSS3, native JavaScript, and Bootstrap5.
+      githubLink: 
+      LiveReviewLink: https://sirius-diag.com/
+    -
+      name: Bundle stock for Inventory Management
+      image: portfolio.jpg
+      description: Developed a bundle calculation program to determine the maximum number of bundles that can be created based on available inventory stock and component structure.
+      tech: Java, Spring boot, Hibernate, JUnit, H2.
+      githubLink: https://github.com/AmiraBelkis/Qublex-coding-challange
+      LiveReviewLink: 
+    -
+      name: Biometric Time Clock System API
+      image: portfolio.jpg
+      description: Developed a RESTful API for a biometric time clock system, which facilitates employee check-ins and check-outs and calculates work hours. 
+      tech: Node.js, Express, MongoDB.
+      githubLink: https://github.com/AmiraBelkis/Biometric-Time-Clock-mini-project
+      LiveReviewLink: 
+    -
+      name: Box-Shadow CSS Generator
+      image: portfolio.jpg
+      description: This user-friendly tool provides an intuitive and interactive interface, allowing users to dynamically generate box shadow styles by visually manipulating parameters, such as shadow color, blur radius, spread distance, and offset.  
+      tech: HTML5, CSS3, native JavaScript.
+      githubLink: https://github.com/AmiraBelkis/Box-Shadow-2
+      LiveReviewLink: https://amirabelkis.github.io/Box-Shadow-2/
