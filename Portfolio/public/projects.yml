@@ -2,24 +2,24 @@ projects:
     - 
       name: Earth Scope
       image: portfolio.jpg
-      description: platform for exploring wildfires, storms, and volcanic activity on a dynamic map.
-      tech:  NASA’s open API, React, Node js, Leaflet, Jest, Supertest, Iconify, Bootstrap.
+      description: Earth Scope is a platform for exploring wildfires, storms, and volcanic activity on a dynamic map powered by NASA’s open API.
+      tech:  React, Node js, Leaflet, Jest, Supertest, Iconify, Bootstrap.
       githubLink: https://github.com/AmiraBelkis/earth-scope
       LiveReviewLink: https://earthscope.vercel.app/
     - 
-      name: Mnist-PCA
-      image: portfolio.jpg
-      description: Performing Principal Component Analysis (PCA) on the MNIST dataset to compress the image size. PCA is a dimensionality reduction technique that reduces the number of features in a dataset while preserving as much information as possible.
-      tech: Python, MongoDB, Matplotlib, NumPy, Pandas, scikit-learn, and Keras.
-      githubLink: https://github.com/AmiraBelkis/Mnist-PCA
-      LiveReviewLink: https://github.com/AmiraBelkis/Mnist-PCA/blob/main/Script.ipynb
-    - 
       name: Artificial Neural Network Compression
       image: portfolio.jpg
-      description:  This project aims to optimize the architecture of convolutional neural networks (CNNs) to reduce the computational complexity. The proposed approach combines pruning, knowledge distillation, and genetic algorithm to find an optimized architecture that minimizes model size while maintaining accuracy.
+      description: This project combines pruning, knowledge distillation, and genetic algorithm to find an optimized architecture.
       tech: Python, pytorch, Matplotlib.
       githubLink: https://github.com/AmiraBelkis/Neural-Network-Reduction-via-Knowledge-Transfer
       LiveReviewLink:
+    - 
+      name: Mnist-PCA
+      image: portfolio.jpg
+      description: Performing Principal Component Analysis (PCA) which is a dimensionality reduction technique on the MNIST dataset to compress images.
+      tech: Python, MongoDB, Matplotlib, NumPy, Pandas, scikit-learn, and Keras.
+      githubLink: https://github.com/AmiraBelkis/Mnist-PCA
+      LiveReviewLink: https://github.com/AmiraBelkis/Mnist-PCA/blob/main/Script.ipynb
     - 
       name: Aya'a portfolio
       image: portfolio.jpg
@@ -51,7 +51,7 @@ projects:
     -
       name: Box-Shadow CSS Generator
       image: portfolio.jpg
-      description: This user-friendly tool provides an intuitive and interactive interface, allowing users to dynamically generate box shadow styles by visually manipulating parameters, such as shadow color, blur radius, spread distance, and offset.  
+      description: This user-friendly tool provides an intuitive and interactive interface, allowing users to dynamically generate box shadow styles by visually manipulating parameters.  
       tech: HTML5, CSS3, native JavaScript.
       githubLink: https://github.com/AmiraBelkis/Box-Shadow-2
       LiveReviewLink: https://amirabelkis.github.io/Box-Shadow-2/
