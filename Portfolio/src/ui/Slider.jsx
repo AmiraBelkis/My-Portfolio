@@ -1,8 +1,8 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import nextImg from "../assets/next.png";
-import prevImg from "../assets/prev.png";
+import nextImg from "../assets/img/next.png";
+import prevImg from "../assets/img/prev.png";
 const settings = {
     dots: false,
     infinite: true,
