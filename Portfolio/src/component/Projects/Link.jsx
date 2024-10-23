@@ -6,5 +6,5 @@ export const Link = ({ link, type }) => {
     const element = <div className="col-sm-6 d-flex justify-content-start align-items-center gap-2">
         {icon} <a className="prjt-link" href={link} target="_blank">{text}</a>
     </div>
-    return (link !== "") ? element : <></>;
+    return link ? element : <></>;
 }
