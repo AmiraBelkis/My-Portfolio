@@ -10,7 +10,7 @@ export const Footer = () => {
             <div className="row">
                 <div className="col-8">
                     <div className="container-fluid">
-                        <div className="row">
+                        <div className="row gap-5">
                             <div className="col-2 d-flex">
                                 {profiles.map(
                                     (profile, index) => <Link key={index} icon={profile.icon} link={profile.link} target="_blank"></Link>
@@ -18,7 +18,7 @@ export const Footer = () => {
                             </div>
                             <Mail email="ia_feliachi@esi.dz"></Mail>
                             <Mail email="fe.amirabelkis@gmail.com"></Mail>
-                            <div className="col-12">
+                            <div className="col-11">
                                 <Menu></Menu>
                             </div>
                         </div>
