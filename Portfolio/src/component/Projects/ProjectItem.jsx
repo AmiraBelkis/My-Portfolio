@@ -19,7 +19,7 @@ export const ProjectItem = ({ name, image, description, tech, githubLink, LiveRe
                 <TechStack props={{ style: { height: `${50 * sizePurcentage}px` } }}>
                     {tech}
                 </TechStack>
-                <div className="d-flex">
+                <div className="row">
                     <Link link={LiveReviewLink} type="preview"></Link>
                     <Link link={githubLink} type="code"></Link>
                 </div>
