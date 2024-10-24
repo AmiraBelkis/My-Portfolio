@@ -39,7 +39,8 @@ body {
 }
 
 .menu a,
-.footer-menu-item {
+.footer-menu-item,
+.email {
   color: var(--font-color);
   text-decoration: none;
   padding: 10px 25px;
@@ -138,11 +139,16 @@ h3.section-sub-title {
 .icon-account {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   width: 24px;
   height: 24px;
+  padding: 2px;
   border-radius: 100%;
   background-color: var(--grey-background-color);
+}
+
+.profile-icon {
+  margin-right: auto;
 }
 
 .separator {

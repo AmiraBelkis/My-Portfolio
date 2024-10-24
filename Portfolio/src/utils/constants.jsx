@@ -9,14 +9,14 @@ export const menuItems = [
 ];
 
 export const profiles = [
-    { icon: "mail", link: "mailto:fe.amirabelkis@gmail.com" },
+    // { icon: "mail", link: "mailto:fe.amirabelkis@gmail.com" },
     { icon: "github", link: "https://github.com/AmiraBelkis" },
     { icon: "linkedin", link: "https://www.linkedin.com/in/amirabelkis/" },
     { icon: "upwork", link: "https://www.upwork.com/freelancers/~012dd94f449054402d" }
 ]
 
 export const profileIcons = {
-    "mail": <MailAccount />,
+    // "mail": <MailAccount />,
     "github": <GithubAccount />,
     "linkedin": <LinkedInAccount />,
     "upwork": <UpWorkAccount />,
