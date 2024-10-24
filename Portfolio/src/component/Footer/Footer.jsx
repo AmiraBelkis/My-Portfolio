@@ -1,4 +1,5 @@
 import { profiles } from "../../utils/constants"
+import { ContactForm } from "./ContactForm"
 import { Link } from "./Link"
 import { Mail } from "./Mail"
 import { Menu } from "./Menu"
@@ -25,7 +26,7 @@ export const Footer = () => {
                 </div>
                 <div className="col-4">
                     <div className="container-fluid">
-
+                        <ContactForm></ContactForm>
                     </div>
                 </div>
             </div>
