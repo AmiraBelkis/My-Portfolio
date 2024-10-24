@@ -13,13 +13,13 @@ export const ProjectItem = ({ name, image, description, tech, githubLink, LiveRe
             <img src={`/src/assets/img/prjt/${image}`} alt="Project-img" className="prjt-img" />
             <div className="container p-3">
                 <h4 className="d-flex align-items-center justify-content-center" style={{ height: `${50 * sizePurcentage}px` }}>{name}</h4>
-                <Description props={{ style: { height: `${65 * sizePurcentage}px` } }} >
+                <Description props={{ style: { minHeight: `${65 * sizePurcentage}px` } }} >
                     {description}
                 </Description>
-                <TechStack props={{ style: { height: `${50 * sizePurcentage}px` } }}>
+                <TechStack props={{ style: { minHeight: `${50 * sizePurcentage}px` } }}>
                     {tech}
                 </TechStack>
-                <div className="row">
+                <div className="row" style={{ height: `${40 * sizePurcentage}px` }} >
                     <Link link={LiveReviewLink} type="preview"></Link>
                     <Link link={githubLink} type="code"></Link>
                 </div>
