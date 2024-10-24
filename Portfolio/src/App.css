@@ -51,6 +51,10 @@ body {
   color: var(--bs-primary);
 }
 
+.footer-menu-item {
+  padding: 10px 5px;
+}
+
 /* Home section */
 .bg-home {
   position: absolute;
