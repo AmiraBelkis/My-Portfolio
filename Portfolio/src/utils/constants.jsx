@@ -1,11 +1,11 @@
 import { UpWorkAccount, GithubAccount, LinkedInAccount, MailAccount } from '../ui/Icon'
 
 export const menuItems = [
-    { id: 1, title: 'Home', link: '/#home' },
-    { id: 2, title: 'About me', link: '/#about' },
-    { id: 3, title: 'Technologies', link: '/#technologies' },
-    { id: 4, title: 'Projects', link: '/#projects' },
-    { id: 5, title: 'Contact', link: '/#footer' }
+    { title: 'Home', link: '/#home' },
+    { title: 'About me', link: '/#about' },
+    { title: 'Technologies', link: '/#technologies' },
+    { title: 'Projects', link: '/#projects' },
+    { title: 'Contact', link: '/#footer' }
 ];
 
 export const profiles = [

@@ -1,10 +1,10 @@
 export const Menu = ({ items }) => {
     return (
         <nav className="menu">
-            {items.map(item => {
+            {items.map((item, index) => {
                 return (
                     <MenuItem
-                        key={item.id}
+                        key={index}
                         title={item.title}
                         link={item.link}
                     />
@@ -13,6 +13,6 @@ export const Menu = ({ items }) => {
         </nav>
     )
 }
-export const MenuItem = ({ title, link }) => {
+const MenuItem = ({ title, link }) => {
     return <a href={link} >{title}</a>
 }
