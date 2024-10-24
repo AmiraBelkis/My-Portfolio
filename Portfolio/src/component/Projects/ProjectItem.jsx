@@ -5,7 +5,8 @@ import { Link } from "./Link";
 import { useWindowWidth } from "../../hooks/useWindowWidth";
 
 export const ProjectItem = ({ name, image, description, tech, githubLink, LiveReviewLink }) => {
-    const sizePurcentage = 1440 / useWindowWidth();
+    const windowWidth = useWindowWidth();
+    const sizePurcentage = windowWidth >= 1024 ? 1440 / windowWidth : windowWidth >= 768 ? 1024 / windowWidth : 1
 
     return (
         <Card col="col-sm-auto">
