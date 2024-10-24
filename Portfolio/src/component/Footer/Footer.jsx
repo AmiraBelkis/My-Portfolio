@@ -6,12 +6,12 @@ import { Menu } from "./Menu"
 
 export const Footer = () => {
     return (
-        <div id="footer">
-            <div className="row">
-                <div className="col-8">
+        <div id="contact">
+            <div className="row flex-wrap-reverse">
+                <div className="col-md-8">
                     <div className="container-fluid">
                         <div className="row gap-5">
-                            <div className="col-2 d-flex">
+                            <div className="col-2 d-flex gap-3">
                                 {profiles.map(
                                     (profile, index) => <Link key={index} icon={profile.icon} link={profile.link} target="_blank"></Link>
                                 )}
@@ -24,7 +24,7 @@ export const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-4">
+                <div className="col-md-4">
                     <div className="container-fluid">
                         <ContactForm></ContactForm>
                     </div>

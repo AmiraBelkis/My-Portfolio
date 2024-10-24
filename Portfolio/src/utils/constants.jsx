@@ -5,7 +5,7 @@ export const menuItems = [
     { title: 'About me', link: '/#about' },
     { title: 'Technologies', link: '/#technologies' },
     { title: 'Projects', link: '/#projects' },
-    { title: 'Contact', link: '/#footer' }
+    { title: 'Contact', link: '/#contact' }
 ];
 
 export const profiles = [
