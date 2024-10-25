@@ -1,9 +1,14 @@
 import emailjs from '@emailjs/browser';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
+import Alert from 'react-bootstrap/Alert';
+import { alertTypes } from '../../utils/constants';
 
 export const ContactForm = () => {
     const form = useRef();
-
+    const [alert, setAlert] = useState({
+        show: false,
+        ...alertTypes.success
+    });
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -13,10 +18,16 @@ export const ContactForm = () => {
             })
             .then(
                 () => {
-                    console.log('SUCCESS!');
+                    setAlert({
+                        show: true,
+                        ...alertTypes.success
+                    })
                 },
                 (error) => {
-                    console.log('FAILED...', error.text);
+                    setAlert({
+                        show: true,
+                        ...alertTypes.danger
+                    })
                 },
             );
     };
@@ -29,6 +40,12 @@ export const ContactForm = () => {
                 <textarea name="message" placeholder="Message..." required rows="4" className="col-12 form-input"></textarea>
                 <button type="submit" className="col-auto btn-submit">Send</button>
             </form>
+            <Alert className='form-alert' {...alert} onClose={() => setAlert({
+                show: false,
+                ...alertTypes.success
+            })
+            } dismissible></Alert>
+
         </>
     )
 }

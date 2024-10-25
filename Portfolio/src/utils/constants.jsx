@@ -1,3 +1,5 @@
+import { Icon } from '@iconify/react';
+
 import { UpWorkAccount, GithubAccount, LinkedInAccount, MailAccount } from '../ui/Icon'
 
 export const menuItems = [
@@ -20,4 +22,20 @@ export const profileIcons = {
     "github": <GithubAccount />,
     "linkedin": <LinkedInAccount />,
     "upwork": <UpWorkAccount />,
+}
+export const alertTypes = {
+    success: {
+        variant: "success",
+        children: <>
+            <Icon icon="jam:info" className="icon success" />
+            <span> <strong>Woohoo!</strong> Your message was sent successfully!</span>
+        </>
+    },
+    danger: {
+        variant: "danger",
+        children: <>
+            <Icon icon="jam:alert" className="icon danger" />
+            <span><strong> Oh no! </strong> Something went wrong. Try again?</span>
+        </>
+    }
 }

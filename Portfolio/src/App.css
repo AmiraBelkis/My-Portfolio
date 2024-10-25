@@ -4,6 +4,7 @@
   --bs-primary-rgb: 57, 204, 204;
   --bs-secondary: #1D6666;
   --bs-secondary-rgb: 29, 102, 102;
+  --bs-danger: #661d1d;
 
   --background-color: #0A111F;
   --footer-background-color: #0C1826;
@@ -216,4 +217,32 @@ h3.section-sub-title {
 .btn-secondary:hover span {
   margin-right: .9rem !important;
   font-weight: 700;
+}
+
+.alert-success {
+  --bs-alert-color: var(--bs-secondary);
+  --bs-alert-bg: var(--font-color);
+  --bs-alert-border-color: var(--bs-secondary);
+}
+
+.alert-danger {
+  --bs-alert-color: var(--bs-danger);
+  --bs-alert-bg: var(--font-color);
+  --bs-alert-border-color: var(--bs-danger);
+}
+
+.icon.success {
+  font-size: 1.8rem;
+  color: var(--bs-secondary);
+}
+
+.icon.danger {
+  font-size: 1.8rem;
+  color: var(--bs-danger);
+}
+
+.form-alert {
+  position: absolute;
+  margin: 0 2rem 1rem 0;
+  transform: translate(-0.9rem, -100%);
 }
