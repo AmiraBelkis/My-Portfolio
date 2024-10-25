@@ -1,6 +1,6 @@
 projects:
   - name: Earth Scope
-    image: earthscope7.png
+    image: earthscope.png
     description: A platform for exploring wildfires, storms, and volcanic activity on a dynamic map powered by NASA’s open API.
     tech: React, Node.js, Leaflet, Jest, Supertest, Iconify, Bootstrap.
     githubLink: https://github.com/AmiraBelkis/earth-scope
@@ -21,7 +21,7 @@ projects:
     LiveReviewLink: https://github.com/AmiraBelkis/Mnist-PCA/blob/main/Script.ipynb
 
   - name: Aya's Portfolio Showcase
-    image: ayaportfolio8.png
+    image: ayaportfolio.png
     description: Development of a compelling portfolio for Feliachi Aya Ahlam, a computer science student.
     tech: HTML5, CSS3, JavaScript, Bootstrap5.
     githubLink: 
@@ -35,7 +35,7 @@ projects:
     LiveReviewLink: https://sirius-diag.com/
 
   - name: Bundle Stock
-    image: bundle2.jpg
+    image: bundle.jpg
     description: Bundle calculation program to determine the maximum number of bundles based on available inventory stock.
     tech: Java, Spring Boot, Hibernate, JUnit, H2.
     githubLink: https://github.com/AmiraBelkis/Qublex-coding-challange
@@ -49,7 +49,7 @@ projects:
     LiveReviewLink: 
 
   - name: Box-Shadow CSS Generator
-    image: boxshadow3.png
+    image: boxshadow.png
     description: User-friendly tool for dynamically generating box shadow styles by visually manipulating parameters.
     tech: HTML5, CSS3, JavaScript.
     githubLink: https://github.com/AmiraBelkis/Box-Shadow-2
