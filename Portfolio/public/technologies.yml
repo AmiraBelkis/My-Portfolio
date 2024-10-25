@@ -1,0 +1,57 @@
+technologies:
+  - 
+      name: Python
+      logo: python.png
+      description: A versatile programming language for data analysis, machine learning, web development, and automation.
+  -
+      name: Node.js
+      logo: nodejs.png
+      description: A runtime for executing JavaScript on the server, ideal for building scalable backend services.
+  -
+      name: React
+      logo: react.png
+      description: A JavaScript library for creating user-friendly interfaces and building single-page applications.
+  -
+      name: Spring Boot
+      logo: springboot.png
+      description: A framework for building Java-based backend systems, focused on speed, simplicity, and production-ready applications.
+  -
+      name: C#
+      logo: csharp.png
+      description: A language commonly used for developing enterprise applications, game development with Unity.
+  -
+      name: PHP
+      logo: php.png
+      description: A server-side scripting language widely used for web development and building dynamic websites.
+  -
+      name: PyTorch
+      logo: pytorch.png
+      description: A deep learning framework used for developing neural networks and AI applications.
+  -
+      name: TensorFlow
+      logo: tensorflow.png
+      description: An open-source framework for machine learning and deep learning, used for building AI-powered applications.
+  -
+      name: MongoDB
+      logo: mongodb.png
+      description: A NoSQL database known for its flexibility and scalability, ideal for storing JSON-like data.
+  -
+      name: PostgreSQL
+      logo: postgresql.png
+      description: An advanced, open-source relational database known for its robustness, extensibility, and SQL compliance.
+  -
+      name: MySQL
+      logo: mysql.png
+      description: A popular open-source relational database, commonly used for web development and data storage.
+  -
+      name: SQLite
+      logo: sqlite.png
+      description: A lightweight, serverless, self-contained relational database management system.
+  -
+      name: Docker
+      logo: docker.png
+      description: A platform for developing, shipping, and running applications inside containers, ensuring consistency across environments.
+  -
+      name: Kubernetes
+      logo: kubernetes.png
+      description: An open source system for automating deployment, scaling, and management of containerized applications.

@@ -1,11 +1,9 @@
-import Card from "../Card";
-import Title from "../Title";
+import { useAbout } from "../../hooks/useAbout";
+import { Card } from "../../ui/Card";
+import { Title } from "../../ui/Title";
 
-export default function About() {
-    const aboutContent = [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis diam orci.  Maecenas at tortor tristique, efficitur ligula non, condimentum lectus. Cras tincidunt tempus mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "  Morbi quis diam orci. Maecenas at tortor tristique, efficitur ligula non, condimentum lectus. Cras tincidunt tempus mollis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi "
-    ]
+export const About = () => {
+    const aboutContent = useAbout();
 
     return (
         <>

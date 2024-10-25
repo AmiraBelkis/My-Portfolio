@@ -1,4 +1,4 @@
-export default function Description({ content }) {
+export const Description = ({ content }) => {
     return (
         <p className="p-2 text-center"> {content} </p>
     )

@@ -1,18 +1,28 @@
-import Card from "../Card";
-import Description from "../Technology/Description";
-import CodeLink from "./CodeLink";
-import { PreviewLink } from "./PreviewLink";
+import { Card } from "../../ui/Card";
+import { Description } from "./Description";
+import { TechStack } from "./TechStack";
+import { Link } from "./Link";
+import { useWindowWidth } from "../../hooks/useWindowWidth";
 
-export default function ProjectItem({ name, image, description, githubLink, LiveReviewLink }) {
+export const ProjectItem = ({ name, image, description, tech, githubLink, LiveReviewLink }) => {
+    const windowWidth = useWindowWidth();
+    const sizePurcentage = windowWidth >= 1024 ? 1440 / windowWidth : windowWidth >= 768 ? 1024 / windowWidth : 1
+
     return (
         <Card col="col-sm-auto">
-            <img src={image} alt="Project" width="100%" />
-            <h4>{name}</h4>
-            <Description content={description}></Description>
-            <div className="row">
-                <PreviewLink link={LiveReviewLink}></PreviewLink>
-                <CodeLink link={githubLink}></CodeLink>
-
+            <img src={`/img/prjt/${image}`} alt="Project-img" className="prjt-img" />
+            <div className="container p-3">
+                <h4 className="d-flex align-items-center justify-content-center" style={{ height: `${50 * sizePurcentage}px` }}>{name}</h4>
+                <Description props={{ style: { minHeight: `${65 * sizePurcentage}px` } }} >
+                    {description}
+                </Description>
+                <TechStack props={{ style: { minHeight: `${50 * sizePurcentage}px` } }}>
+                    {tech}
+                </TechStack>
+                <div className="row" style={{ height: `${40 * sizePurcentage}px` }} >
+                    <Link link={LiveReviewLink} type="preview"></Link>
+                    <Link link={githubLink} type="code"></Link>
+                </div>
             </div>
         </Card>
     );

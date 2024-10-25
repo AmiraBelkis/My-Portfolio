@@ -1,0 +1,56 @@
+projects:
+  - name: Earth Scope
+    image: earthscope.png
+    description: A platform for exploring wildfires, storms, and volcanic activity on a dynamic map powered by NASA’s open API.
+    tech: React, Node.js, Leaflet, Jest, Supertest, Iconify, Bootstrap.
+    githubLink: https://github.com/AmiraBelkis/earth-scope
+    LiveReviewLink: https://earthscope.vercel.app/
+    
+  - name: Neural Network Compression
+    image: AI.jpg
+    description: Combines pruning, knowledge distillation, and genetic algorithms to optimize neural network architecture.
+    tech: Python, PyTorch, Matplotlib.
+    githubLink: https://github.com/AmiraBelkis/Neural-Network-Reduction-via-Knowledge-Transfer
+    LiveReviewLink: 
+
+  - name: MNIST PCA
+    image: mnistpca.png
+    description: Performing Principal Component Analysis (PCA) on the MNIST dataset to compress images.
+    tech: Python, MongoDB, Matplotlib, NumPy, Pandas, Keras.
+    githubLink: https://github.com/AmiraBelkis/Mnist-PCA
+    LiveReviewLink: https://github.com/AmiraBelkis/Mnist-PCA/blob/main/Script.ipynb
+
+  - name: Aya's Portfolio Showcase
+    image: ayaportfolio.png
+    description: Development of a compelling portfolio for Feliachi Aya Ahlam, a computer science student.
+    tech: HTML5, CSS3, JavaScript, Bootstrap5.
+    githubLink: 
+    LiveReviewLink: https://ayaahlamfeliachi.github.io/Feliachi-Aya-Ahlem-portfolio/
+
+  - name: Sirius Diag
+    image: siruisdiag.jpg
+    description: Custom e-commerce app for OBDeleven products, providing a seamless shopping experience tailored to client needs.
+    tech: PHP, HTML5, CSS3, JavaScript, Bootstrap5.
+    githubLink: 
+    LiveReviewLink: https://sirius-diag.com/
+
+  - name: Bundle Stock
+    image: bundle.jpg
+    description: Bundle calculation program to determine the maximum number of bundles based on available inventory stock.
+    tech: Java, Spring Boot, Hibernate, JUnit, H2.
+    githubLink: https://github.com/AmiraBelkis/Qublex-coding-challange
+    LiveReviewLink: 
+
+  - name: Biometric Time Clock System API
+    image: biometrictimeclock.jpg
+    description: RESTful API for a biometric time clock system, facilitating employee check-ins/check-outs and calculating work hours.
+    tech: Node.js, Express, MongoDB.
+    githubLink: https://github.com/AmiraBelkis/Biometric-Time-Clock-mini-project
+    LiveReviewLink: 
+
+  - name: Box-Shadow CSS Generator
+    image: boxshadow.png
+    description: User-friendly tool for dynamically generating box shadow styles by visually manipulating parameters.
+    tech: HTML5, CSS3, JavaScript.
+    githubLink: https://github.com/AmiraBelkis/Box-Shadow-2
+    LiveReviewLink: https://amirabelkis.github.io/Box-Shadow-2/
