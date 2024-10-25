@@ -205,6 +205,11 @@ h3.section-sub-title {
   padding: 8px 25px;
 }
 
+.btn-submit.active {
+  pointer-events: none;
+  background: var(--bs-secondary);
+}
+
 .btn-secondary {
   color: var(--bs-primary);
   border-radius: 15px;
