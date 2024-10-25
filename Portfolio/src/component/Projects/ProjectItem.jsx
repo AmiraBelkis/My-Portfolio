@@ -10,7 +10,7 @@ export const ProjectItem = ({ name, image, description, tech, githubLink, LiveRe
 
     return (
         <Card col="col-sm-auto">
-            <img src={`/src/assets/img/prjt/${image}`} alt="Project-img" className="prjt-img" />
+            <img src={`/img/prjt/${image}`} alt="Project-img" className="prjt-img" />
             <div className="container p-3">
                 <h4 className="d-flex align-items-center justify-content-center" style={{ height: `${50 * sizePurcentage}px` }}>{name}</h4>
                 <Description props={{ style: { minHeight: `${65 * sizePurcentage}px` } }} >
