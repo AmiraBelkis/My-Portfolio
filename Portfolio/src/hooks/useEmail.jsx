@@ -3,6 +3,9 @@ import { useState } from 'react';
 import { alertTypes } from '../utils/constants';
 
 export const useEmail = (form) => {
+    const jsEmailServiceID = import.meta.env.VITE_JsEmail_Service || ''
+    const jsEmailTemplateID = import.meta.env.VITE_JsEmail_Template || ''
+    const jsEmailPublicKey = import.meta.env.VITE_JsEmail_PublicKey || ''
     const [loading, setLoading] = useState(false);
     const [alert, setAlert] = useState({
         show: false,
@@ -12,8 +15,8 @@ export const useEmail = (form) => {
         e.preventDefault();
         setLoading(true);
         emailjs
-            .sendForm('service_4yw9oxy', 'template_h1krtp4', form.current, {
-                publicKey: 'T6wWspf3dg5OUsz78',
+            .sendForm(jsEmailServiceID, jsEmailTemplateID, form.current, {
+                publicKey: jsEmailPublicKey,
             })
             .then(
                 () => {
