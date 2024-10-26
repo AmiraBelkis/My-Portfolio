@@ -1,39 +1,11 @@
-import emailjs from '@emailjs/browser';
-import { useRef, useState } from 'react';
 import Alert from 'react-bootstrap/Alert';
 import { alertTypes } from '../../utils/constants';
+import { useRef } from 'react';
+import { useEmail } from '../../hooks/useEmail';
 
 export const ContactForm = () => {
     const form = useRef();
-    const [loading, setLoading] = useState(false);
-    const [alert, setAlert] = useState({
-        show: false,
-        ...alertTypes.success
-    });
-    const sendEmail = (e) => {
-        e.preventDefault();
-        setLoading(true);
-        emailjs
-            .sendForm('service_4yw9oxy', 'template_h1krtp4', form.current, {
-                publicKey: 'T6wWspf3dg5OUsz78',
-            })
-            .then(
-                () => {
-                    setAlert({
-                        show: true,
-                        ...alertTypes.success
-                    })
-                    setLoading(false);
-                },
-                (error) => {
-                    setAlert({
-                        show: true,
-                        ...alertTypes.danger
-                    })
-                    setLoading(false);
-                },
-            );
-    };
+    const [loading, alert, setAlert, sendEmail] = useEmail(form);
     return (
         <>
             <form ref={form} onSubmit={sendEmail} className="row gap-2 justify-content-end">
